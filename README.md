@@ -10,10 +10,16 @@
 ## Дата старта
 22:30
 9.09.2022
+4 часа 
+
+20:40
+14.09.2022
 
 ## Дата финиша
 
 ## Тестирование верстки
+Тестирую только "тестовый стенд с последним билдом". Сайт https://www.saucedemo.com/ c логином standard_user и паролем secret_sauce
+Остальные билды содержат множество функциональных багов, которые поправлены в билде standard_user
 
 ### Вспомогательные материалы
 **Прикладные (моего авторства)**
@@ -22,17 +28,17 @@
 
 **Теоритические**
 
-Чек-лист тестирования верстки https://habr.com/ru/post/114256/
+1. Чек-лист тестирования верстки https://habr.com/ru/post/114256/
 
-Тестирование адаптивной верстки https://win-keys.ru/windows-8/testirovanie-adaptivnogo-dizaina-luchshie-instrumenty-dlya-testirovaniya.html
+2. Тестирование адаптивной верстки https://win-keys.ru/windows-8/testirovanie-adaptivnogo-dizaina-luchshie-instrumenty-dlya-testirovaniya.html
 
-Попарное тестирование на кейсе тестирования UI https://www.saucedemo.com/inventory.html
+3. Попарное тестирование на кейсе тестирования UI https://www.saucedemo.com/inventory.html
 
-State & Transition Diagram — что это и как применять https://habr.com/ru/post/548192/
+4. State & Transition Diagram — что это и как применять https://habr.com/ru/post/548192/
 
-Рейтинг популярности браузеров в мире десктоп и мобайл (апрель, 2022) https://www.seonews.ru/events/samye-populyarnye-brauzery-v-mire-v-aprele-2022-goda-reyting/
+5. Рейтинг популярности браузеров в мире десктоп и мобайл (апрель, 2022) https://www.seonews.ru/events/samye-populyarnye-brauzery-v-mire-v-aprele-2022-goda-reyting/
 
-Рейтинг распространенности размеров экранов ПК (2022) https://ru.screenresolution.org/year-2022/
+6. Рейтинг распространенности размеров экранов ПК (2022) https://ru.screenresolution.org/year-2022/
 
 ### План проверки
 Подготовка к тестированию
@@ -62,6 +68,7 @@ https://involta.ru/tools/validator-html/
 4. Майнд-карты https://www.mindmeister.com/folders
 5. Расширение для браузера PageRuler
 6. Эмулятор разных устройств Lambda https://app.lambdatest.com/
+7. ПО для Windows - эмулятор Mac VirtualBox
 
 P.S. так как нет макета и другой документации, я не использую браузерные расширения для измерения, например, расстояния между элементами, или для вычисления цвета элементов. 
 
@@ -71,6 +78,6 @@ P.S. так как нет макета и другой документации,
 3. Там же. Проверяю DOCTYPE - HTML. **ОК** 
 4. Составляю таблицу переходов и состояний перед.
 5. Анализирую дизайн сайтов согласно таблице переходов и состояний + фиксирую баги
-6. Провожу кросс-браузерное тестирование для приоритетных браузеров в ПК (Chrome последней версии, Firefox последний, Safari 
-7. Изучаю состояние сайта при изменении размера окна браузера (хром) + фиксирую баги 
+6. Изучаю состояние сайта при изменении размера окна браузера (в самом популярном браузере Chrome) + фиксирую баги 
+7. Провожу кросс-браузерное тестирование для приоритетных браузеров (теоритические материалы, пункт 5) в ПК (Edge, Firefox последний, Safari 
 
